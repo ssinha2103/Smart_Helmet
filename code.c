@@ -3,7 +3,7 @@
 #define DHTPIN 0 //Not D0 Pin it is D3 Pin, Here 0 means GPIO 0. #defineDHTTYPE DHT11
 constchar* ssid = "nikhilwifi";// replace subscribe with your WiFi SSID(Name) constchar* password = "12345678";//replace with Your Wifi Password name
 constchar* host = "api.thingspeak.com";
-constchar* writeAPIKey = "2TN5SFEEIZ8I8E8X"; //copy youtThingSpeak channel API Key.
+constchar* writeAPIKey = "EUYD3CFM2G70FV9A"; //copy youtThingSpeak channel API Key.
 int p;
 intht; floatsensor_volt; floatRS_gas; float R0;
 float ratio;
